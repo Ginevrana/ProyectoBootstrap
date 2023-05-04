@@ -21,8 +21,10 @@
 
     <title>Proyecto Bootstrap</title>
 </head>
+
+
 <body>
-    
+    <!-- Barra de navegación responsive -->
     <header>
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #293133">
         <div class="container-fluid">
@@ -56,25 +58,60 @@
                 </div>
             </div>
     </nav>
-    
     </header>
 
-    <section>
-        <img src="assets/hawaii.jpg" alt="Vista de edificio histórico Buenos Aires">
-        <div class="card txt-imagen">
-            <div class="card-body">
-                <h5 class="card-title">Conf Bs As</h5>
-                <p class="card-text">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para tí. Te esperamos!</p>
+
+    <!-- Sección imagen y texto -->
+    <div class="primersect">
+        <img src="assets/hawaii.jpg" alt="Edificio de Buenos Aires" class="img-fluid">
+        <div class="container">
+            <h5>Conf Bs As</h5>
+            <p >Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para tí. Te esperamos!</p>
             <div>
                 <button class="btn btn-outline-light">Quiero ser orador</button>
                 <button class="btn btn btn-success">Comprar tickets</button>
             </div>
         </div>
-    </section>
+    </div>
     
-    <!-- Bootstrap y popper separados -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    <!-- Sección oradores -->
+    <div class="titulo text-center">
+        <h5 style="font-size: small;">CONOCE A LOS</h5>
+        <h2 style="font-weight: bold;">ORADORES</h2>
+    </div>
+    <div class="container d-flex justify-content-around pt-3">
+        <div class="card" style="width: 18rem;">
+            <img src="assets/steve.jpg" class="card-img-top" alt="Foto Steve Jobs">
+            <div class="card-body">
+                <span class="badge bg-warning text-dark">JavaScript</span>
+                <span class="badge bg-info">React</span>
+                <h5 class="card-title">Steve Jobs</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium sit placeat praesentium hic illo sint magnam consequatur? Accusamus, atque cum architecto repellat odit quas eaque, consequuntur illum, quis exercitationem aliquid!</p>
+            </div>
+        </div>
+        
+        <div class="card" style="width: 18rem;">
+            <img src="assets/bill.jpg" class="card-img-top" alt="Foto Bill Gates">
+            <div class="card-body">
+                <span class="badge bg-warning text-dark">JavaScript</span>
+                <span class="badge bg-info">React</span>
+                <h5 class="card-title">Bill Gates</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque modi corporis nihil perspiciatis maiores error veritatis est, reiciendis, numquam impedit nemo libero alias ipsum rem voluptatum neque cumque cum. Id?</p>
+            </div>
+        </div>
+        
+        <div class="card" style="width: 18rem;">
+            <img src="assets/ada.jpeg" class="card-img-top" alt="Foto de Ada Lovelace">
+            <div class="card-body">
+                <span class="badge bg-secondary">Negocios</span>
+                <span class="badge bg-danger">Startups</span>
+                <h5 class="card-title">Ada Lovelace</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque modi corporis nihil perspiciatis maiores error veritatis est, reiciendis, numquam impedit nemo libero alias ipsum rem voluptatum neque cumque cum. Id?</p>
+            </div>
+        </div>
+    </div>
+        
 
 </body>
 </html>

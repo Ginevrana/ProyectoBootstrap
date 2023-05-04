@@ -1,17 +1,31 @@
 * {
-    font-family: Ubuntu, sans-serif !important;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: content-box;
 }
 
 .logo {
     height: 4em;
 }
 
-.txt-imagen {
-    align-items: end;
+.primersect {
+    height: 70vh;
+    background-image: url(assets/hawaii.jpg);
+    filter: brightness(0.4);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto {
     position: absolute;
-    max-width: 30%;
+    max-width: 40%;
     color: aliceblue;
     font-weight: 400;
     margin: -148% 155%;
     width: 50vw;
+}
+
+.card-text {
+    font-size: small !important;
+    line-height: 2 !important;
 }
