@@ -1,0 +1,17 @@
+* {
+    font-family: Ubuntu, sans-serif !important;
+}
+
+.logo {
+    height: 4em;
+}
+
+.txt-imagen {
+    align-items: end;
+    position: absolute;
+    max-width: 30%;
+    color: aliceblue;
+    font-weight: 400;
+    margin: -148% 155%;
+    width: 50vw;
+}
